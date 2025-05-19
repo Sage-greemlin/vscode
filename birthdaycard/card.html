@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardstyle.css">
+    <title>Lwande</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Birthday Lwande</h1>
+        <br>
+        <p>from :Patrick</p> 
+        <br>
+        <br>
+        <p>Praying you the rest of the year filled with love, joy, and all your favorite things. May this year bring you closer to your dreams and surround you with happiness.</p>
+        <br><br>
+        <p>May your birthday be as wonderful as you are!</p>
+    </div>
+     <br>
+     <div class="video-container">
+        <h2>Birthday Countdown</h2>
+        <img src="countdown.gif" alt="countdown" width="320" height="240">
+     </div>
+
+     <div class="video-container2">
+        <h2>Birthday dance</h2>
+        <img src="OIP.jpeg" alt="card" width="320" height="240">
+     </div>
+     <br>
+   <p>TO : Lwande</p>
+
+   <!-- ...existing code... -->
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+    const vc1 = document.querySelector('.video-container');
+    const vc2 = document.querySelector('.video-container2');
+    vc1.style.display = 'none';
+    vc2.style.display = 'none';
+
+    setTimeout(() => {
+        vc1.style.display = 'flex';
+        setTimeout(() => {
+            vc2.style.display = 'flex';
+        }, 12000); // 12 seconds after first
+    }, 10000); // 10 seconds after load
+});
+</script>
+</body>
+<!-- ...existing code... -->
+</body>
+</html>
